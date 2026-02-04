@@ -42,3 +42,18 @@ h2{
     border-radius: 5px;
     margin-top: 50px;
 }
+#save{
+    background-color: rgb(97, 52, 52);
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px 20px 8px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+#pre-count{
+    color: black;
+    padding: 5px 5px;
+    font-size: 30px;
+}
