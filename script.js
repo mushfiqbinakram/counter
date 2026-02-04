@@ -1,5 +1,6 @@
 let count=0
 let countEl=document.getElementById("count-el")
+let preCount=document.getElementById("pre-count")
 function increment(){
     // console.log("clicked")
     count=count+1
@@ -16,3 +17,10 @@ function reset(){
     count=0
     countEl.innerHTML=count
 }
+function save(){
+    let countStr= count+" - "
+    preCount.textContent+=countStr
+}
+
+
+
